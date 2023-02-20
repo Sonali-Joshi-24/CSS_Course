@@ -1,0 +1,53 @@
+div {
+    margin: 70px;
+    border: 2px solid black;
+    margin-left: 100px;
+}
+
+p.inherite {
+    margin-left: inherit;
+}
+
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.one {
+    margin: 25px;
+    border: 2px solid black;
+}
+
+.two {
+    margin: 100px 50px;
+    border: 2px solid black;
+}
+
+.three {
+    margin: 60px 25px 70px;
+    border: 2px solid black;
+}
+
+.four {
+    margin: 25px 50px 75px 100px;
+    border: 2px solid black;
+}
+
+.auto {
+    width: 300px;
+    margin: auto;
+    border: 2px solid red;
+}
+
+
+h1 {
+    margin: 0 0 50px 0;
+    /* border: 2px solid red; */
+}
+
+h2{
+    margin: 20px 0 0 0;
+    /* border: 2px solid yellow; */
+}

@@ -1,0 +1,68 @@
+/* div {
+    border: 2px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+} */
+
+
+/* padding shorthand  - 4 values*/
+
+div {
+    border: 2px solid black;
+    background-color: lightcoral;
+    padding: 50px 30px 50px 80px;
+}
+
+
+div.three {
+    border: 2px solid black;
+    background-color: lightsalmon;
+    padding: 25px 50px 75px;
+
+}
+
+div.two {
+    border: 2px solid black;
+    background-color: aquamarine;
+    padding: 25px 50px;
+}
+
+div.widthPadding {
+    border: 2px solid black;
+    background-color: beige;
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+/* left padding */
+p.padding1 {
+    padding-left: 2cm;
+}
+
+p.padding2 {
+    padding-left: 50%;
+}
+
+/* right padding */
+p.padding3 {
+    padding-right: 2cm;
+}
+
+p.padding4 {
+    padding-right: 50%;
+}
+
+
+/* padding top */
+p.padding5 {
+    padding-top: 50%;
+}
+
+/* padding bottom */
+p.padding6 {
+    padding-bottom: 2cm;
+}

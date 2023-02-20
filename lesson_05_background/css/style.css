@@ -1,0 +1,88 @@
+/* --------------------------------- CSS background attachment and shorthand ------------------------------------ */
+/* background attachment */
+
+/* back-attachment : fixed */ 
+ /* body {
+    background-image: url("img/tree.jfif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed, scroll;
+} */
+
+
+/* Use the shorthand property to set the background properties in one declaration: */
+/* shorthand */
+body {
+    background: #ffffff url("img/tree.jfif") no-repeat  right top;
+    margin-right: 200px;
+}
+
+
+
+
+/* --------------------------------- CSS Background Repeat -------------------------------------- */
+
+/* body {
+    background-image: url("img/images.jfif");
+    background-repeat: repeat-x;
+} */
+
+
+
+/* margin from right side of the ul where text ends and position to specify the direction of img */
+/* body {
+    background-image: url("img/tree.jfif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px ;
+} */
+
+
+
+
+/* --------------------------------------- CSS background Img ------------------------ */
+
+/* 
+body {
+    background-image: url("img/backgroung_img.jpg");
+} */
+
+
+/* The background image can also be set for specific elements, like the <ul> element: */
+/* ul {
+    background-image: url("img/backgroung_img.jpg");
+} */
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------- CSS background color ----------------------------------------------*/
+
+/* body {
+    background-color: lightblue;
+} */
+
+
+/* apply opacity to child elements,makes text opac (in efficient way)
+h1 {
+    background-color: lightgreen;
+    opacity: 0.3;     
+}
+*/
+
+
+/* use this instead */
+/* Green background with 30% opacity */
+/* h1 {
+    background-color: rgba(0, 128, 0, 0.3);   
+}
+
+p {
+    background-color: bisque;
+} */

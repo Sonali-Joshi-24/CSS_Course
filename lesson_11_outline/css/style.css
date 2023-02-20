@@ -1,0 +1,49 @@
+/* p {
+    border: 2px solid black;
+    outline: green solid 10px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+} */
+p {
+    outline-color: green;
+}
+
+p.dotted {
+    outline-style: dotted;
+}
+
+p.dotted {
+    outline-style: dotted;
+    outline-color: red;
+}
+p.dashed {
+    outline-style: dashed;
+    outline-color:#deb887;
+}
+p.solid {
+    outline-style: solid;
+    outline-width: thick;
+}
+p.double {
+    outline-style: double;
+    outline-color: rgb(153, 0, 255);
+}
+p.groove {
+    outline-style: groove;
+    outline-color: hsl(0, 100%, 50%);
+}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {
+    outline-style: outset;
+    outline-width: thin;
+}
+
+p.offset {
+    margin: 30px;
+    background: yellow;
+    border: 2px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}

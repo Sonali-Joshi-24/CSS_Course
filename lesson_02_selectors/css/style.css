@@ -1,0 +1,62 @@
+/* universal selector */
+
+* {
+    font-family: Times New Roman;
+
+}
+
+
+/* element selector */
+
+html {
+    font-size: 22px;
+}
+
+body {
+    font-size: 22px;
+}
+
+
+/* group selectors */
+h1, h2 {
+   color: blue; 
+}
+
+p {
+    color: purple;
+}
+
+/* over write - as css scans from top-to-bottom */
+p {
+    color: red;
+}
+
+
+
+/*  Eg:1 one way to do it : This will search for <span> element present inside any <p> element */
+/* p span {
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+
+
+/* class selector */
+
+/* a class starts with "." and user_defined name */
+.gray {
+    color: gray;
+}
+
+/* make css more organize use class  for above Eg:1*/
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+
+/* id selector */
+
+#second {
+    font-style: italic;
+}
