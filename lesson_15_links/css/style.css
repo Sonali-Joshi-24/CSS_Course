@@ -1,0 +1,48 @@
+/*1.  - Style a link with a color
+    - Style a link depending on state : link, visited, hover, active
+    - Styling link with text-decoration property and bg-color : background-color*/
+
+
+/* unvisited link */
+/* a:link {
+    color: hotpink;
+    text-decoration: none;
+    background-color: yellow;
+} */
+
+/* visited link */
+/* a:visited {
+    color: green;
+    text-decoration: none;
+    background-color: cyan;
+} */
+
+/* mouse over link */
+/* a:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: lightgreen;
+} */
+
+/* selected link */
+/* a:active {
+    color: blue;
+    text-decoration: dotted;
+    background-color: burlywood;
+} */
+
+
+
+/* 2. A link styled as button */
+a:link, a:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
