@@ -1,0 +1,44 @@
+table, th , td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 70px;
+    padding: 15px;
+    background-color: #04AA6D;
+    color: white;
+    
+    
+}
+
+td {
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+}
+
+
+/* To create a hover effect */
+
+/* tr:hover {
+    background-color: coral;
+} */
+
+/* to create a striped effect */
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+div {
+    overflow-x: auto;
+}
