@@ -1,0 +1,20 @@
+/* Display a list if links as horizontal menu:  */
+li {
+    display: inline;
+}
+
+/* Display span element as block element */
+span {
+    display: block;
+}
+
+/* Display links as block level elements */
+a {
+    display: block;
+}
+
+
+h1.hidden {
+    /* display: none; */
+    visibility: hidden;
+}
