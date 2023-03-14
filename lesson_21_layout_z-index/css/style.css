@@ -1,0 +1,46 @@
+/* img will be behid the text sice z-index is negative
+img {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    z-index: -1;
+} */
+
+
+/* z-index new example */
+
+.container {
+    position: relative;
+}
+
+.black-box {
+    border: 3px solid black;
+    z-index: 1;
+    position: relative;
+    height: 100px;
+    margin: 30px;
+}
+
+/* gray box will be above both green and black box */
+.gray-box {
+    position: absolute;
+    background-color: grey;
+    z-index: 3;
+    height: 70px;
+    width: 50%;
+    left: 50px;
+    top: 50px;
+}
+
+
+/* green box will be above black box */
+.green-box {
+    position: absolute;
+    z-index: 2;
+    background-color: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+
+}
