@@ -1,0 +1,46 @@
+/* Display:inline vs Display:inline-block vs Display:block */
+/* display: inline */
+span.a {
+    border: 2px solid black;
+    background-color: yellow;
+    padding: 5px;
+    display: inline;
+    height: 100px;
+    width: 100px;
+}
+
+/* inline-block */
+span.b {
+    border: 2px solid black;
+    background-color: yellow;
+    padding: 5px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+
+}
+
+/* block */
+span.c {
+    border: 2px solid black;
+    background-color: yellow;
+    padding: 5px;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+/* Using inline-block to create a navigation link */
+.nav {
+    background-color: lightcoral;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
