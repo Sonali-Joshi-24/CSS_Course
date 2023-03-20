@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Flex Items</title>
+        <link rel="stylesheet" href="flex_items.css">
+    </head>
+    <body>
+        <h1>Flexible Items</h1>
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <p>All direct children of a flexible containers become flexible items</p>
+
+        <!-- flex-items : order-property -->
+        <h1>The order property</h1>
+        <p>Use the order property to sort the flex items as you like</p>
+        <div class="order-property">
+            <div style="order: 3">1</div>
+            <div style="order: 2">2</div>
+            <div style="order: 4">3</div>
+            <div style="order: 1">4</div>
+
+        </div>
+
+        <!-- The flex-shrink property -->
+        <h1>The Flex-shrink Property</h1>
+        <p>Do not let the third flex item shrink as much as the other flex items:</p>
+        <div class="flex-shrink">
+            <div>1</div>
+            <div>2</div>
+            <div style="flex-shrink: 0;">3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </div>
+
+        <!-- flex-basis PRoperty -->
+
+        <h1>The flex-basis Property</h1>
+        <p>Set the initial length of the third flex item to 200 pixels:</p>
+        <div class="flex-basis">
+            <div>1</div>
+            <div>2</div>
+            <div style="flex-basis:200px">3</div>
+            <div>4</div>
+        </div>
+
+        <!-- align-self -->
+        <h1>Align-self property</h1>
+        <p>align 3 in middle of container</p>
+        <p>Align the second flex item at the top of the container, and the fourth flex item at the bottom of the container:</p>
+        <div class="align-self">
+            <div>1</div>
+            <div style="align-self: flex-start;">2</div>
+            <div style="align-self:center">3</div>
+            <div style="align-self: flex-end;">4</div>
+
+        </div>
+    </body>
+</html>
