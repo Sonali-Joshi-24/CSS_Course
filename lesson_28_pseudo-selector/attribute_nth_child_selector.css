@@ -1,0 +1,69 @@
+/* Attribute Selector */
+.container {
+    display: block;
+    width: 233px;
+    margin: auto;
+
+}
+input {
+    display: block;
+}
+
+
+/* select input with type text */
+input[type='text'] {
+    padding: 25px;
+    border: 2px solid red;
+}
+
+/* select an anchor tag who target is set */
+a[target]{
+    font-size: 32px;
+    color: violet;
+}
+
+/* select an anchor tag whose target is _self */
+a[target='_self'] {
+    font-size: 32px;
+    color: orange;
+}
+
+
+/* select input with type email */
+input[type='email']{
+    color: yellowgreen;
+    border: 2px solid black;
+}
+
+
+/* Pseudo -nth Child Selector */
+
+
+/* color the 3rd child of li to cyan*/
+li:nth-child(3){
+    color: cyan;
+}
+
+/* on every 2nd element put color red (even) elements */
+li:nth-child(2n+0){
+    color: red;
+}
+
+/* 3rd, 6th n 9th ...  element bluevoilet */
+/* n starts with = 0
+3 * 0 + 3 = 3
+3 * 1 + 3 = 6
+3 * 2 + 3 = 9
+n so on... */
+li:nth-child(3n+3){
+    color: blueviolet;
+}
+
+/* for odd n even */
+li:nth-child(odd){
+    background-color: yellowgreen ;
+}
+
+li:nth-child(even){
+    background-color: yellow;
+}
