@@ -1,0 +1,26 @@
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr) ;
+    /* grid-column-gap: 7rem;
+    grid-row-gap: 1rem; */
+    grid-gap: 1rem;
+}
+
+.items{
+    background-color: rosybrown;
+    border: 2px solid black;
+    padding: 15px 5px;
+}
+
+.items:first-child{
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+    
+    /* shorthand property */
+    grid-column: 1 / span 3 ;  /* span 1st column 3 long*/
+    grid-row: 1 / span 3;  /* span 1st row 3 long*/
+}

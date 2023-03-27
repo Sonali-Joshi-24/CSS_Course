@@ -1,0 +1,103 @@
+.grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'section section section aside'
+    'footer footer footer footer';
+}
+
+nav {
+    grid-area: navbar;
+}
+
+aside {
+    grid-area: aside;
+}
+
+section{
+    grid-area: section;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:300px) {
+    body {
+        background-color: red;
+    }
+    .grid {
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+        'section section section section'
+        'aside aside aside aside'
+        'footer footer footer footer';
+    }
+    aside{
+        display: none;
+    }
+    span{
+        display: block;
+        text-align: center;
+    }
+ 
+}
+
+/* when the screen turns blue remove the aside "more about us"  section from the web (by simply putting its display as none */
+@media only screen and (min-width: 300px) and (max-width:500px) {
+    body {
+        background-color: blue;
+    }
+    .grid {
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+        'section section section section'
+        'aside aside aside aside'
+        'footer footer footer footer';
+    }
+    aside{
+        display: none;
+    }
+    span{
+        display: block;
+        text-align: center;
+    }
+ 
+}
+
+
+/* as soon as the back-ground color: turns yellows bring the aside below section */
+/* turn display of span ele as block */
+@media (min-width: 500px) and (max-width:800px) {
+    body {
+        background-color: yellow;
+    }
+    .grid{
+        grid-template-areas: 
+        'navbar navbar navbar navbar'
+        'section section section section'
+        'aside aside aside aside'
+        'footer footer footer footer';
+    }
+
+    span{
+        display: block;
+        text-align: center;
+    }
+ 
+}
+@media (min-width: 800px) {
+    body {
+        background-color: green;
+    }
+}
+
+.bdr {
+    border: 2px solid black;
+    padding: 10px 23px;
+    background-color: wheat;
+}

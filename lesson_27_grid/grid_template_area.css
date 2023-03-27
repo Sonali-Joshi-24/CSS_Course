@@ -1,0 +1,33 @@
+
+
+.grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'section section section asidebar'
+    'footer footer footer footer'
+    ;
+}
+
+.items {
+    background-color: yellow;
+    border: 3px solid black;
+    padding: 12px 32px;
+}
+
+#navbar {
+    grid-area: navbar;
+}
+
+#section {
+    grid-area: section;
+}
+
+#asidebar {
+    grid-area: asidebar;
+}
+
+footer {
+    grid-area: footer;
+}
